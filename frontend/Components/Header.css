@@ -1,0 +1,8 @@
+.hover-img {
+    display: none; /* Hide the image by default */
+  }
+  
+  .hover-link:hover .hover-img {
+    display: block; /* Show the image when the link is hovered */
+  }
+  

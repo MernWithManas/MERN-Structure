@@ -1,0 +1,67 @@
+
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('https://www.example.com/education-photo.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+  }
+
+  input{
+    color:  black !important;
+  }
+  
+  .signup-form {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .signup-form h2 {
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #FFD700;
+  }
+  
+  .signup-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFD700;
+  }
+  
+  .signup-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .signup-form button {
+    background-color: #FFD700;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .signup-form button:hover {
+    background-color: #FFC107;
+  }
+  
+  .signup-form p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
